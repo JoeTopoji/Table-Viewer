@@ -1,0 +1,13 @@
+{
+  "MONGO_URI": "mongodb://localhost:27017/",
+  "DB_NAME": "SEGRETI",
+  "COLLECTION_NAME": "secrets",
+  "SCHEMA": {
+    "TESTO1": "String",
+    "TESTO2": "String",
+    "EMAIL": "String",
+    "TLD": "String",
+    "DOMAIN": "String"
+  },
+  "INDEX": { "TESTO1": 1, "TESTO2": 1 }
+}
